@@ -90,12 +90,11 @@ function getBestOaUrl() {
 
   // fallback to oaDOI url
   if (getSource("oadoi").results.url) {
-    devLog("oadoi", getSource("oadoi").results.url);
     return getSource("oadoi").getUrl();
   }
 
   // fallback on the fallback to sci-hub
-  if (doi) {
+  if (settings.useSciHub) {
     return `https://sci-hub.tw/${doi}`;
   }
 }
@@ -106,7 +105,7 @@ function decideTabColor() {
   }
 
   // red for sci-hub
-  var color = doi ? "red" : "black";
+  var color = settings.useSciHub ? "red" : "black";
 
   if (getSource("oadoi").isGreen()) {
     color = "green";
