@@ -12,7 +12,7 @@ build/
 develop-eggs/
 
 # jason commented this one out because breaks static/dist
-# dist/
+dist/
 
 local_data/
 downloads/

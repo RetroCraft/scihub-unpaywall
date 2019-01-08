@@ -1,9 +1,9 @@
 {
-  "name": "Unpaywall",
-  "version": "3.78",
-  "version_name": "Unpaywall 3.87",
+  "name": "Unpaywall Sci-Hub",
+  "version": "3.87.1",
+  "version_name": "Unpaywall 3.87.1",
   "manifest_version": 2,
-  "description": "Legally get full text of scholarly articles as you browse.",
+  "description": "Legally (or illegally) get full text of scholarly articles as you browse.",
   "icons": {
     "16": "img/icon-16.png",
     "32": "img/icon-32.png",
