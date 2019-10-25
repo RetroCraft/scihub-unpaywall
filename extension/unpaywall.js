@@ -95,7 +95,7 @@ function getBestOaUrl() {
 
   // fallback on the fallback to sci-hub
   if (settings.useSciHub) {
-    return `https://sci-hub.tw/${doi}`;
+    return `https://sci-hub.se/${doi}`;
   }
 }
 
